@@ -1,0 +1,145 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 1,
+        "username": "john_doe",
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+        "fullName": "John Doe",
+        "bio": "Lover of photography and nature. 🌿📸"
+      },
+      "image": "https://via.placeholder.com/600x400?text=Post+Image+1",
+      "caption": "Just saw the most beautiful sunset today! 🌅",
+      "likes": 245,
+      "comments": [
+        {
+          "id": 1,
+          "user": "jane_doe",
+          "text": "Wow, amazing view! Where was this taken?",
+          "likes": 12
+        },
+        {
+          "id": 2,
+          "user": "mike_smith",
+          "text": "Gorgeous! Nature is incredible.",
+          "likes": 8
+        }
+      ],
+      "postedAt": "2023-10-22T14:32:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 2,
+        "username": "susan_b",
+        "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+        "fullName": "Susan Brown",
+        "bio": "Fashion enthusiast 👗👠 | Cat mom 🐱"
+      },
+      "image": "https://via.placeholder.com/600x400?text=Post+Image+2",
+      "caption": "Outfit of the day! #ootd #fashionista",
+      "likes": 198,
+      "comments": [
+        {
+          "id": 1,
+          "user": "john_doe",
+          "text": "You look fabulous! Where did you get that dress?",
+          "likes": 10
+        },
+        {
+          "id": 2,
+          "user": "mary_jane",
+          "text": "Love this look! 😍",
+          "likes": 5
+        }
+      ],
+      "postedAt": "2023-10-21T19:15:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 3,
+        "username": "kevin_lee",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+        "fullName": "Kevin Lee",
+        "bio": "Tech lover & gamer 🎮 | Software engineer 💻"
+      },
+      "image": "https://via.placeholder.com/600x400?text=Post+Image+3",
+      "caption": "Building my new gaming rig! Can't wait to play the latest games. 🎮👾",
+      "likes": 350,
+      "comments": [
+        {
+          "id": 1,
+          "user": "susan_b",
+          "text": "Looks awesome! What specs did you choose?",
+          "likes": 18
+        },
+        {
+          "id": 2,
+          "user": "jane_doe",
+          "text": "That setup is insane! 😱",
+          "likes": 14
+        }
+      ],
+      "postedAt": "2023-10-20T08:00:00Z"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "username": "john_doe",
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+  },
+  "suggestion": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "username": "jane_doe",
+      "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "username": "sarah_smith",
+      "avatar": "https://randomuser.me/api/portraits/women/3.jpg"
+    },
+    {
+      "id": 4,
+      "username": "michael_brown",
+      "avatar": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+      "id": 5,
+      "username": "lucas_jones",
+      "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "username": "emily_williams",
+      "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 7,
+      "username": "david_martin",
+      "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 8,
+      "username": "olivia_taylor",
+      "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "id": 9,
+      "username": "james_clark",
+      "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "id": 10,
+      "username": "ava_harris",
+      "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+    }
+  ]
+}
