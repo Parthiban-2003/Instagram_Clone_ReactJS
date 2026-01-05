@@ -6,10 +6,10 @@ function Feed()
     return(
         <>
             <div>
-                <Stories/>
+                <Stories />
             </div>
             <div>
-                <Posts/>
+                <Posts />
             </div>
         </>
     )
