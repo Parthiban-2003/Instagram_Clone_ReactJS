@@ -15,9 +15,7 @@ function App() {
       <div className='w-30'>
         <Sugesttions />
       </div>
-
     </div>
-
   );
 }
 
