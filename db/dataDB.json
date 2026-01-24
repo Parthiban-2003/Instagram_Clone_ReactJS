@@ -4,24 +4,24 @@
       "id": 1,
       "user": {
         "id": 1,
-        "username": "john_doe",
+        "username": "smiley_vijay",
         "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
         "fullName": "John Doe",
         "bio": "Lover of photography and nature. 🌿📸"
       },
-      "image": "https://via.placeholder.com/600x400?text=Post+Image+1",
+      "image": "/asserts/img1.webp",
       "caption": "Just saw the most beautiful sunset today! 🌅",
       "likes": 245,
       "comments": [
         {
           "id": 1,
-          "user": "jane_doe",
+          "user": "action_ajith",
           "text": "Wow, amazing view! Where was this taken?",
           "likes": 12
         },
         {
           "id": 2,
-          "user": "mike_smith",
+          "user": "rowdy_dhanush",
           "text": "Gorgeous! Nature is incredible.",
           "likes": 8
         }
@@ -32,12 +32,12 @@
       "id": 2,
       "user": {
         "id": 2,
-        "username": "susan_b",
+        "username": "Surya_Vikram",
         "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
         "fullName": "Susan Brown",
         "bio": "Fashion enthusiast 👗👠 | Cat mom 🐱"
       },
-      "image": "https://via.placeholder.com/600x400?text=Post+Image+2",
+      "image": "/asserts/img2.webp",
       "caption": "Outfit of the day! #ootd #fashionista",
       "likes": 198,
       "comments": [
@@ -65,7 +65,7 @@
         "fullName": "Kevin Lee",
         "bio": "Tech lover & gamer 🎮 | Software engineer 💻"
       },
-      "image": "https://via.placeholder.com/600x400?text=Post+Image+3",
+      "image": "/asserts/img3.webp",
       "caption": "Building my new gaming rig! Can't wait to play the latest games. 🎮👾",
       "likes": 350,
       "comments": [
