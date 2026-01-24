@@ -4,7 +4,7 @@ function Sidebar() {
     return (
         <div className="d-flex flex-column justify-content-between p-3 vh-100 border-end">
             
-            <div>
+            <div className='main-content'>
                 <img
                     className="logo-text mb-4"
                     src="\asserts\instagram-text.png"
@@ -12,7 +12,7 @@ function Sidebar() {
                     style={{ width: "120px" }}
                 />
 
-                <div className="sidebar-item mb-3">
+                <div className="sidebar-item mb-3 fs-0">
                     <i className="bi bi-house-door-fill me-2"></i> Home
                 </div>
                 <div className="sidebar-item mb-3">
