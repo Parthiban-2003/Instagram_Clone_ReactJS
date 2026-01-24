@@ -19,7 +19,6 @@
           "text": "Wow, amazing view! Where was this taken?",
           "likes": 12
         },
-        
         {
           "id": 2,
           "user": "mike_smith",
@@ -57,7 +56,6 @@
       ],
       "postedAt": "2023-10-21T19:15:00Z"
     },
-    
     {
       "id": 3,
       "user": {
@@ -90,7 +88,7 @@
   "profile": {
     "id": 1,
     "username": "john_doe",
-    "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
   },
   "suggestion": [
     {
@@ -108,19 +106,16 @@
       "username": "sarah_smith",
       "avatar": "https://randomuser.me/api/portraits/women/3.jpg"
     },
-    
     {
       "id": 4,
       "username": "michael_brown",
       "avatar": "https://randomuser.me/api/portraits/men/4.jpg"
     },
-    
     {
       "id": 5,
       "username": "lucas_jones",
       "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
     },
-    
     {
       "id": 6,
       "username": "emily_williams",
