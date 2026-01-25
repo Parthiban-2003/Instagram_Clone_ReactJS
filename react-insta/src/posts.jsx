@@ -1,3 +1,4 @@
+import './index.css';
 import { useEffect, useState } from "react";
 
 function Posts() {
@@ -35,10 +36,10 @@ function Posts() {
                                     width="40"
                                     height="40"
                                 />
-                                <h6 className="mb-0 fs-4">{post.user.username}</h6>
+                                <h6 className="mb-0 header-items">{post.user.username}</h6>
                             </div>
                             <div className="d-flex align-items-center gap-2">
-                                <button className="btn btn-sm btn-primary">Follow</button>
+                                <button className="btn btn-sm btn-primary header-items">Follow</button>
                                 <h2 className="mb-0">⋮</h2>
                             </div>
                         </div>

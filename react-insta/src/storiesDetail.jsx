@@ -1,4 +1,5 @@
 import React from "react";
+import './index.css'
 
 function StoriesDetail({ story, onClose }) {
     if (!story) return null;
@@ -17,7 +18,7 @@ function StoriesDetail({ story, onClose }) {
                         height="40"
                         className="rounded-circle me-2"
                     />
-                    <strong>{story.username}</strong>
+                    <strong className="header-items">{story.username}</strong>
                 </div>
                 <button
                     className="btn btn-light btn-sm"
@@ -36,9 +37,9 @@ function StoriesDetail({ story, onClose }) {
             </div>
 
             <div className="d-flex justify-content-between align-items-center p-3 text-white">
-                <div>Highlights</div>
+                <div className="header-items">Highlights</div>
 
-                <div className="d-flex gap-3">
+                <div className="d-flex gap-3 header-items">
                     <i className="bi bi-heart fs-4"></i>
                     <i className="bi bi-chat fs-4"></i>
                     <i className="bi bi-send fs-4"></i>

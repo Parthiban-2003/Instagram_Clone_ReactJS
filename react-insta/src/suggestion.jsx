@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './index.css';
 
 function Suggestions() {
     const [profile, setProfile] = useState(null);
@@ -30,8 +31,8 @@ function Suggestions() {
                             width="40"
                             height="40"
                         />
-                        <h6 className="mb-0">{profile.username}</h6>
-                        <small className="ms-auto text-primary">Switch</small>
+                        <h6 className="mb-0 header-items">{profile.username}</h6>
+                        <small className="ms-auto text-primary header-items">Switch</small>
                     </div>
                 ) : (
                     <p>Loading...</p>
@@ -39,8 +40,8 @@ function Suggestions() {
             </div>
 
             <div className="d-flex align-items-center mb-2">
-                <p className="mb-0 text-muted">Suggestions for You</p>
-                <b className="ms-auto text-dark">See All</b>
+                <p className="mb-0 text-muted header-items">Suggestions for You</p>
+                <b className="ms-auto text-dark header-items">See All</b>
             </div>
 
             <div>
@@ -54,8 +55,8 @@ function Suggestions() {
                                 width="40"
                                 height="40"
                             />
-                            <h6 className="mb-0">{suggestion.username}</h6>
-                            <p className="ms-auto text-primary mb-0">Follow</p>
+                            <h6 className="mb-0 header-items">{suggestion.username}</h6>
+                            <p className="ms-auto text-primary mb-0 header-items">Follow</p>
                         </div>
                     ))
                 ) : (

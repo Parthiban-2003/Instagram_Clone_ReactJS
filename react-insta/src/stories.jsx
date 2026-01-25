@@ -1,3 +1,4 @@
+import './index.css'
 import React, { useEffect, useState, useRef } from "react";
 import StoriesDetail from "./storiesDetail";
 
@@ -51,7 +52,7 @@ function Stories() {
                         stories.map(story => (
                             <div
                                 key={story.id}
-                                className="text-center mx-1"
+                                className="text-center mx-1 header-items"
                                 style={{ cursor: "pointer" }}
                                 onClick={() => openStory(story)}
                             >
@@ -62,11 +63,11 @@ function Stories() {
                                     width="75"
                                     height="65"
                                 />
-                                <small className="d-block mt-1" style={{ fontSize: "0.7rem" }}>
+                                <p className="d-block mt-1 header-items" style={{ fontSize: "0.7rem" }}>
                                     {story.username.length > 10
                                         ? story.username.slice(0, 10) + "..."
                                         : story.username}
-                                </small>
+                                </p>
                             </div>
                         ))
                     ) : (

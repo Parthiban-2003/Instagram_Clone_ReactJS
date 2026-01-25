@@ -10,6 +10,10 @@
   width: 50%;
 }
 
+.header-items{
+  font-size: 22px;
+}
+
 .sidebar,
 .suggestions {
   height: 100vh;
