@@ -1,9 +1,8 @@
 import Posts from "./posts";
 import Stories from "./stories";
 
-function Feed()
-{
-    return(
+function Feed() {
+    return (
         <>
             <div>
                 <Stories />

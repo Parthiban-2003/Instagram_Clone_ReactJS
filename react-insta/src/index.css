@@ -10,7 +10,7 @@
   width: 50%;
 }
 
-.header-items{
+.header-items {
   font-size: 22px;
 }
 
@@ -42,14 +42,12 @@
 }
 
 
-.logo-text
-{
-  width:100px;
-  height:auto;
+.logo-text {
+  width: 100px;
+  height: auto;
 }
 
-.stories
-{
+.stories {
   height: 60px;
 }
 
@@ -65,13 +63,10 @@
   cursor: pointer;
 }
 
-.sugesstions h6
-{
+.sugesstions h6 {
   font-size: 14px;
 }
 
-.sugesstions .dp
-{
+.sugesstions .dp {
   margin-top: 0px !important;
 }
-

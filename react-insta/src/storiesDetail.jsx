@@ -30,7 +30,7 @@ function StoriesDetail({ story, onClose }) {
 
             <div className="d-flex justify-content-center align-items-center flex-grow-1">
                 <img
-                    src={story.image} 
+                    src={story.image}
                     alt="Story content"
                     style={{ maxHeight: "80%", maxWidth: "90%", objectFit: "contain" }}
                 />

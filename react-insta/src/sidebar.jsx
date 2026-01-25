@@ -3,7 +3,7 @@ import './index.css'
 function Sidebar() {
     return (
         <div className="d-flex flex-column justify-content-between p-3 vh-100 border-end">
-            
+
             <div className='main-content'>
                 <img
                     className="logo-text mb-4"
